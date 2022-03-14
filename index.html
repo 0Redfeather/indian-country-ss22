@@ -111,16 +111,16 @@
         $('.modal:visible').each(centerModal);
       });
     </script>
-
+mapbox://styles/0redfeather/ckyn01xcn021h14qvnswnlt88
     <!-- Initiates Map and pulls data from .CSV -->
     <script>
       var map = L.map('map', {
     	   attributionControl: false
-    	}).setView([46.2058487,-100.961857], 3);
+    	}).setView([38.1,-97.35], 5);
       L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         maxZoom: 18,
         minZoom: 2,
-        id:'0redfeather/ckhxs4rm914d919pj2zgf0fcp',
+        id:'0redfeather/ckyn01xcn021h14qvnswnlt88',
         accessToken: 'pk.eyJ1IjoiMHJlZGZlYXRoZXIiLCJhIjoiY2puZzVlYTFmNDZ6bjN3cW8xMHAwNG53NSJ9.hQc74nd7nsRsbm_2ZWB8sw'
     	}).addTo(map);
     	L.control.attribution().setPrefix(
